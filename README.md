@@ -136,7 +136,7 @@ Compare each link's total clicks, current-period clicks, previous-period clicks,
 
 | ☀️ Link Comparison – Light Mode | 🌙 Link Comparison – Dark Mode |
 |:---:|:---:|
-| ![Link Comparison Light](screenshots/link%20by%20link%20light.png) | ![Link Comparison Dark](screenshots/Link%20comparison%20dark.png) |
+| ![Link Comparison Light](screenshots/link%20by%20link%20light.png) | ![Link Comparison Dark](<screenshots/Link comparison dark.png>) |
 
 ### Recent Click Activity
 
