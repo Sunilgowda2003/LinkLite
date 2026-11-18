@@ -1298,3 +1298,7 @@
   }
 }
 
+/* Space between Top Performing Links and Recent Click Activity */
+.analytics-page .analytics-table-card:has(+ .analytics-recent-card) {
+  margin-bottom: 28px;
+}

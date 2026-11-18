@@ -14,12 +14,14 @@ const particles = [
 export default function AuthBackground() {
   return (
     <div className="auth-background">
+      {/* Animated background effects */}
       <div className="aurora aurora-one" />
       <div className="aurora aurora-two" />
       <div className="aurora aurora-three" />
 
       <div className="auth-grid" />
 
+      {/* Animated orbit effects */}
       <motion.div
         className="orbit orbit-one"
         animate={{ rotate: 360 }}
@@ -44,6 +46,7 @@ export default function AuthBackground() {
         <span className="orbit-dot orbit-dot-two" />
       </motion.div>
 
+      {/* Floating particles */}
       <div className="floating-particles">
         {particles.map((particle, index) => (
           <motion.span
@@ -68,6 +71,7 @@ export default function AuthBackground() {
         ))}
       </div>
 
+      {/* LinkLite brand */}
       <div className="auth-brand">
         <motion.div
           className="auth-brand-icon"
@@ -81,11 +85,13 @@ export default function AuthBackground() {
           ↗
         </motion.div>
 
-        <h1>
-          Link<span>Lite</span>
-        </h1>
+        <div className="auth-brand-text">
+          <h1>
+            Link<span>Lite</span>
+          </h1>
 
-        <p>Shorten less. Share more.</p>
+          <p>Shorten less. Share more.</p>
+        </div>
       </div>
     </div>
   );

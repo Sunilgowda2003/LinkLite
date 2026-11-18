@@ -1526,3 +1526,168 @@
   background: #e2e8f0;
   color: #475569;
 }
+
+
+/* ========================================
+   LINKLITE - URL DETAILS MODAL FIX
+======================================== */
+
+/* Modal background */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Modal container */
+.details-modal {
+  width: min(560px, 100%);
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px);
+
+  margin: auto;
+  padding: 24px;
+
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  background: white;
+  border-radius: 17px;
+
+  scrollbar-width: thin;
+  scrollbar-color: #a5a5b5 transparent;
+}
+
+/* Modal heading */
+.modal-heading {
+  position: sticky;
+  top: -24px;
+  z-index: 5;
+
+  padding: 4px 0 15px;
+  margin-bottom: 10px;
+
+  background: inherit;
+}
+
+/* Detail fields */
+.detail-field {
+  min-width: 0;
+  padding: 13px 0;
+  overflow-wrap: anywhere;
+}
+
+.detail-field input {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Modal action buttons */
+.modal-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+.modal-actions .primary-button {
+  flex: 1;
+  width: auto;
+  min-width: 0;
+  margin-top: 0;
+}
+
+.modal-actions .status-toggle-button {
+  flex: 0 0 auto;
+  min-width: 125px;
+  white-space: normal;
+}
+
+/* Bottom actions */
+.details-modal > .modal-actions:last-child {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .modal-overlay {
+    align-items: center;
+    padding: 10px;
+  }
+
+  .details-modal {
+    width: 100%;
+    max-height: calc(100vh - 20px);
+    max-height: calc(100dvh - 20px);
+    padding: 19px;
+    border-radius: 14px;
+  }
+
+  .modal-heading {
+    top: -19px;
+  }
+
+  .modal-actions {
+    gap: 8px;
+  }
+
+  .modal-actions .status-toggle-button {
+    min-width: 110px;
+    padding: 9px 10px;
+    font-size: 12px;
+  }
+}
+
+/* Very narrow mobile screens */
+@media (max-width: 380px) {
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions .primary-button,
+  .modal-actions .status-toggle-button {
+    width: 100%;
+    min-height: 44px;
+  }
+}
+/* Final dashboard alignment polish */
+
+.advanced-filter-toolbar {
+  grid-template-columns: repeat(4, minmax(155px, 1fr)) auto;
+}
+
+.alias-type-badge {
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: 8px;
+}
+
+.link-actions {
+  align-self: center;
+}
+
+@media (max-width: 900px) {
+  .advanced-filter-toolbar {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .advanced-filter-toolbar {
+    grid-template-columns: 1fr;
+  }
+}
+
