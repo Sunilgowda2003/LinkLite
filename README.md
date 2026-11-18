@@ -10,6 +10,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 ## ✨ Features
 
 ### 🔐 Authentication & Account Management
+
 - User registration and login
 - JWT-based authentication
 - Secure password hashing with BCrypt
@@ -17,6 +18,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 - User-specific URL ownership and access control
 
 ### 🔗 URL Shortening & Management
+
 - Generate short URLs with unique 7-character codes
 - Create custom aliases
 - Copy short URLs
@@ -26,6 +28,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 - View individual URL details
 
 ### 📊 Analytics Dashboard
+
 - Total URLs and total clicks
 - Clicks within the selected period
 - Daily average click statistics
@@ -39,6 +42,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 - Refresh analytics data
 
 ### 📱 QR Code Management
+
 - Generate QR codes for shortened URLs
 - Preview QR codes
 - Customize QR code size and colors
@@ -46,6 +50,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 - Copy the associated short URL
 
 ### ⏳ URL Expiration & Status Management
+
 - Set an optional expiration date and time
 - Update or remove expiration
 - Activate and deactivate URLs
@@ -54,6 +59,7 @@ LinkLite transforms long URLs into short, shareable links and provides a complet
 - Bulk activate, deactivate, and delete selected links
 
 ### 🎨 User Interface
+
 - Responsive React interface
 - Light and dark themes
 - Modern dashboard layout
@@ -70,7 +76,7 @@ The LinkLite welcome page introduces the URL shortening platform and provides ac
 
 | 🌐 LinkLite Welcome Page |
 |:---:|
-| ![LinkLite Welcome Page](screenshots/01-welcome-page.png) |
+| ![LinkLite Welcome Page](screenshots/welcome%20page.png) |
 
 ### Authentication
 
@@ -78,7 +84,7 @@ Secure login and registration pages allow users to access their own URL workspac
 
 | 🔐 Login Page | 📝 Register Page |
 |:---:|:---:|
-| ![Login Page](screenshots/02-login.png) | ![Register Page](screenshots/03-register.png) |
+| ![Login Page](screenshots/Login.png) | ![Register Page](screenshots/Register.png) |
 
 ### URL Shortener
 
@@ -86,7 +92,7 @@ Create short URLs by entering a destination URL. Optionally configure an expirat
 
 | 🌙 URL Shortener – Dark Mode |
 |:---:|
-| ![URL Shortener Dark](screenshots/04-url-shortener-dark.png) |
+| ![URL Shortener Dark](screenshots/shorturls%20dark.png) |
 
 ### My Links – URL Management
 
@@ -94,7 +100,7 @@ Manage shortened URLs, search by URL or short code, filter by status and expirat
 
 | 🌙 My Links – Dark Mode | ☀️ My Links – Light Mode |
 |:---:|:---:|
-| ![My Links Dark](screenshots/05-my-links-dark.png) | ![My Links Light](screenshots/06-my-links-light.png) |
+| ![My Links Dark](screenshots/shorturls%20dark.png) | ![My Links Light](screenshots/url%20links%20white.png) |
 
 ### Analytics Overview
 
@@ -102,7 +108,7 @@ The analytics dashboard provides an overview of URL activity, click statistics, 
 
 | 🌙 Analytics – Dark Mode | ☀️ Analytics – Light Mode |
 |:---:|:---:|
-| ![Analytics Dark](screenshots/07-analytics-dark.png) | ![Analytics Light](screenshots/08-analytics-light.png) |
+| ![Analytics Dark](screenshots/Analytics%20dark.png) | ![Analytics Light](screenshots/Analytics.png) |
 
 ### Click Performance
 
@@ -110,11 +116,11 @@ Visualize daily click activity and understand how shortened URLs perform over a 
 
 | 🌙 Click Performance – Dark Mode | ☀️ Click Performance – Light Mode |
 |:---:|:---:|
-| ![Click Performance Dark](screenshots/09-performance-dark.png) | ![Click Performance Light](screenshots/10-performance-light.png) |
+| ![Click Performance Dark](screenshots/Performance%20dark.png) | ![Click Performance Light](screenshots/performance%20light.png) |
 
 | 📈 Click Performance Graph |
 |:---:|
-| ![Click Performance Graph](screenshots/11-click-performance-graph.png) |
+| ![Click Performance Graph](screenshots/graph.png) |
 
 ### Top Performing Links
 
@@ -122,7 +128,7 @@ View the most-clicked shortened URLs, compare their click counts, and access QR 
 
 | ☀️ Top Performing Links – Light Mode | 🌙 Top Performing Links – Dark Mode |
 |:---:|:---:|
-| ![Top Performing Links Light](screenshots/12-top-performing-light.png) | ![Top Performing Links Dark](screenshots/13-top-performing-dark.png) |
+| ![Top Performing Links Light](screenshots/top%20performing%20light.png) | ![Top Performing Links Dark](screenshots/top%20performing%20links%20dark.png) |
 
 ### Link-by-Link Comparison
 
@@ -130,7 +136,7 @@ Compare each link's total clicks, current-period clicks, previous-period clicks,
 
 | ☀️ Link Comparison – Light Mode | 🌙 Link Comparison – Dark Mode |
 |:---:|:---:|
-| ![Link Comparison Light](screenshots/14-link-comparison-light.png) | ![Link Comparison Dark](screenshots/15-link-comparison-dark.png) |
+| ![Link Comparison Light](screenshots/link%20by%20link%20light.png) | ![Link Comparison Dark](screenshots/Link%20comparison%20dark.png) |
 
 ### Recent Click Activity
 
@@ -138,19 +144,20 @@ Review the latest recorded visits, including the short link, destination, relati
 
 | 🌙 Recent Click Activity – Dark Mode | ☀️ Recent Click Activity – Light Mode |
 |:---:|:---:|
-| ![Recent Activity Dark](screenshots/16-recent-activity-dark.png) | ![Recent Activity Light](screenshots/17-recent-activity-light.png) |
+| ![Recent Activity Dark](screenshots/recent%20activity.png) | ![Recent Activity Light](screenshots/recent%20activity%20light.png) |
 
 ### Application Interface
 
 | 🔗 LinkLite Application Interface |
 |:---:|
-| ![LinkLite Application](screenshots/18-linklite-interface.png) |
+| ![LinkLite Application](screenshots/Linklite.png) |
 
 ---
 
 ## 🛠️ Technology Stack
 
 ### Backend
+
 - Java 21
 - Spring Boot
 - Spring Security
@@ -162,6 +169,7 @@ Review the latest recorded visits, including the short link, destination, relati
 - REST APIs
 
 ### Frontend
+
 - React.js
 - JavaScript
 - HTML5
@@ -170,9 +178,11 @@ Review the latest recorded visits, including the short link, destination, relati
 - Fetch API / Axios
 
 ### Database
+
 - MySQL
 
 ### Development Tools
+
 - Spring Tool Suite (STS)
 - Visual Studio Code
 - MySQL Workbench
@@ -302,7 +312,7 @@ cd linklite-backend
 On Windows:
 
 ```powershell
-.\mvnw.cmd spring-boot:run
+.\mvnw\.cmd spring-boot:run
 ```
 
 Or, if Maven is installed:
@@ -389,13 +399,11 @@ Potential improvements for future versions:
 
 ---
 
-
 ## 📄 License
 
 This project was developed for personal learning, skill development, and portfolio purposes.
 
 © 2026 Sunil J S. All rights reserved.
-
 
 ---
 
